@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="60" r="55" stroke="#FF1F8F" stroke-width="4" />
+  
+  <!-- Sound waves -->
+  <path d="M60 20C37.909 20 20 37.909 20 60C20 82.091 37.909 100 60 100" stroke="#ADA1D9" stroke-width="3" stroke-linecap="round"/>
+  <path d="M60 30C43.431 30 30 43.431 30 60C30 76.569 43.431 90 60 90" stroke="#00B2A9" stroke-width="3" stroke-linecap="round"/>
+  <path d="M60 40C48.954 40 40 48.954 40 60C40 71.046 48.954 80 60 80" stroke="#FF1F8F" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Soundbar -->
+  <rect x="75" y="35" width="6" height="25" fill="#ADA1D9" />
+  <rect x="85" y="30" width="6" height="35" fill="#00B2A9" />
+  <rect x="95" y="40" width="6" height="15" fill="#FF1F8F" />
+</svg>

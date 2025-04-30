@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 307 100% 56%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 266 53% 35%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --accent: 181 100% 36%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+  
+  /* Custom Colors */
+  --navy: 222 25% 11%;
+  --purple: 266 53% 35%;
+  --teal: 181 100% 36%;
+  --lavender: 257 47% 74%;
+  --pink: 327 100% 56%;
+  --darkgray: 240 4% 13%;
+  --lightgray: 240 5% 90%;
+  
+  /* Chart colors */
+  --chart-1: 207 90% 54%;
+  --chart-2: 266 53% 35%;
+  --chart-3: 181 100% 36%;
+  --chart-4: 257 47% 74%;
+  --chart-5: 327 100% 56%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-navy text-lightgray;
+  }
+}
+
+@layer components {
+  .wave-bg {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%234F3B78' fill-opacity='0.3' d='M0,192L48,176C96,160,192,128,288,122.7C384,117,480,139,576,144C672,149,768,139,864,122.7C960,107,1056,85,1152,80C1248,75,1344,85,1392,90.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .sound-bar {
+    animation: soundBar 2s ease-in-out infinite;
+    transform-origin: bottom;
+  }
+  
+  @keyframes soundBar {
+    0%, 100% {
+      transform: scaleY(0.5);
+    }
+    50% {
+      transform: scaleY(1);
+    }
+  }
+  
+  .calendar-day.has-event::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: hsl(327, 100%, 56%);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
