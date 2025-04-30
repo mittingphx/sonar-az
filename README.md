@@ -10,17 +10,11 @@ A website for SONAR AZ that showcases artsy noise music events held at a therapi
 - **Responsive Design**: Fully responsive layout for all devices
 - **Sonic Brand Identity**: Custom color scheme reflecting SONAR AZ's unique aesthetic
 
+## Documentation
+
+For detailed technical documentation about the project architecture, see the [Architecture Documentation](docs/architecture.md).
+
 ## Technology Stack
-
-- **Frontend**: React with TypeScript
-- **Styling**: Tailwind CSS with custom theme
-- **Calendar Integration**: FullCalendar
-- **State Management**: React Query
-- **Routing**: Wouter
-- **Backend**: Express with in-memory storage
-- **Form Validation**: Zod and React Hook Form
-
-## Getting Started
 
 ### Prerequisites
 
