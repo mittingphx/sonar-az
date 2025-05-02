@@ -11,7 +11,7 @@ A web platform for **SONAR AZ**, an experimental sound series held in a therapy 
 ## 🧭 Related Repositories
 
 - **[`@mittingphx/sonar-az`](https://github.com/mittingphx/sonar-az)** – *This repository:* Frontend and backend code for the SONAR AZ website  
-- **[`@petcom/calendar-api-node-mbp`](https://github.com/petcom/calendar-api-node-mbp)** – Node-based calendar API backend with Ghost CMS integration
+- **[`@petcom/calendar-api-node-mvp`](https://github.com/petcom/calendar-api-node-mvp)** – Node-based calendar API backend with Ghost CMS integration
 
 ---
 
