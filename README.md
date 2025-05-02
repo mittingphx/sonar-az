@@ -1,7 +1,7 @@
 # 🎵 SONAR AZ – Experimental Sound Events
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.x-brightgreen)](https://nodejs.org/)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: Unreleased](https://img.shields.io/badge/license-unreleased-lightgrey)]()
 [![Status](https://img.shields.io/badge/status-active-brightgreen)]()
 
 A web platform for **SONAR AZ**, an experimental sound series held in a therapy space. The site provides event listings, calendar navigation, and rich event pages—reflecting the project’s sonic and artistic identity.
@@ -100,7 +100,9 @@ For architectural details, see:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** – see the `LICENSE` file for details.
+This project is currently **unreleased** and a **private product under development**.
+
+🚫 Not licensed for any public or commercial use at this time.
 
 ---
 
